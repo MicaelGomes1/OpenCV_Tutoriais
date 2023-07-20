@@ -1,0 +1,24 @@
+Comandos para o git e github
+
+*************************************************************
+
+Para criar um clone do repositorio no pc:
+- abrir o "open git bash here"
+- na linha de comando digitalisar "git clone (link compiado do repositorio criado no github)"
+
+*************************************************************
+
+Depois de inserir algum ficheiro na pasta clone no pc:
+
+-digitalizar "git status", este comando diz todas as alteracoes feitas na pasta clone
+-digitalizar "git add (nome do ficheiro alterado)" ou "git . " ,este ultimo adiciona todos os ficheiros alterados 
+-digitalizar "git status" , para ver se o ficheiro esta na area de preparacao
+-digitalizar "git commit -m "(mensagem para sobre a alteracao)" " , este comando vai fazer o commit de todos os ficheiros que estao na area de preparacao, "-m" e para escrever a mensagem
+-digitalizar "git log" , diz todos os commits que foram feitos
+-digitalizar "git push origin (main ou para a brash desejada)" , envia os arquivos para a nuvem
+*************************************************************
+Se forem feitas no github 
+
+-digitalizar "git pull origin (main ou para a brash desejada)" , tras os arquivos alterados na brash no github para o pc
+
+*************************************************************
